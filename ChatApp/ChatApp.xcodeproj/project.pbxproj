@@ -6,17 +6,44 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXFileReference section */
-		9316D4BC2EFEA19C0003D9ED /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
+/* Begin PBXBuildFile section */
+		930907242EFDAAB300FD7FB5 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 930907232EFDAAB300FD7FB5 /* UserListView.swift */; };
+		9316D4D52EFEA5F80003D9ED /* ChatApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9316D4D02EFEA5F80003D9ED /* ChatApp.xcdatamodeld */; };
+		9316D4D62EFEA5F80003D9ED /* ChatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316D4D12EFEA5F80003D9ED /* ChatAppApp.swift */; };
+		9316D4D82EFEA5F80003D9ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9316D4CF2EFEA5F80003D9ED /* Assets.xcassets */; };
+		9316D4DB2EFEA64E0003D9ED /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316D4DA2EFEA64E0003D9ED /* User.swift */; };
+		9316D4DD2EFEA6730003D9ED /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316D4DC2EFEA6730003D9ED /* Post.swift */; };
+		9316D4DF2EFEA6900003D9ED /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316D4DE2EFEA6900003D9ED /* Comment.swift */; };
+		9316D4E22EFEA6900003D9ED /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316D4E12EFEA6900003D9ED /* APIEndpoint.swift */; };
+		9316D4E52EFEA6900003D9ED /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9316D4E42EFEA6900003D9ED /* ContentViewModel.swift */; };
+		93C9E7AB2EFD70D900E9C29A /* CoreDataSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9E7AA2EFD70D900E9C29A /* CoreDataSettings.swift */; };
+		93C9E7B12EFD7F3100E9C29A /* HorizontalDividerComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9E7B02EFD7F3100E9C29A /* HorizontalDividerComponent.swift */; };
+		93C9E7B52EFD7FA500E9C29A /* DescriptionCardComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9E7B42EFD7FA500E9C29A /* DescriptionCardComponent.swift */; };
+		93C9E7B72EFD81DF00E9C29A /* ColorEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9E7B62EFD81DF00E9C29A /* ColorEnum.swift */; };
+		93C9E7BA2EFD825700E9C29A /* TopBarNavigationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9E7B92EFD825700E9C29A /* TopBarNavigationComponent.swift */; };
+		93C9E7BC2EFD843000E9C29A /* PostListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9E7BB2EFD843000E9C29A /* PostListView.swift */; };
+		93C9E7BE2EFD84D900E9C29A /* SinglePostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93C9E7BD2EFD84D900E9C29A /* SinglePostView.swift */; };
+/* End PBXBuildFile section */
 
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		9316D4BE2EFEA19C0003D9ED /* ChatApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ChatApp;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
+/* Begin PBXFileReference section */
+		930907232EFDAAB300FD7FB5 /* UserListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		9316D4BC2EFEA19C0003D9ED /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9316D4CF2EFEA5F80003D9ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9316D4D12EFEA5F80003D9ED /* ChatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatAppApp.swift; sourceTree = "<group>"; };
+		9316D4D42EFEA5F80003D9ED /* ChatApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatApp.xcdatamodel; sourceTree = "<group>"; };
+		9316D4DA2EFEA64E0003D9ED /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		9316D4DC2EFEA6730003D9ED /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		9316D4DE2EFEA6900003D9ED /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		9316D4E12EFEA6900003D9ED /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		9316D4E42EFEA6900003D9ED /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		93C9E7AA2EFD70D900E9C29A /* CoreDataSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataSettings.swift; sourceTree = "<group>"; };
+		93C9E7B02EFD7F3100E9C29A /* HorizontalDividerComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalDividerComponent.swift; sourceTree = "<group>"; };
+		93C9E7B42EFD7FA500E9C29A /* DescriptionCardComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionCardComponent.swift; sourceTree = "<group>"; };
+		93C9E7B62EFD81DF00E9C29A /* ColorEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEnum.swift; sourceTree = "<group>"; };
+		93C9E7B92EFD825700E9C29A /* TopBarNavigationComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopBarNavigationComponent.swift; sourceTree = "<group>"; };
+		93C9E7BB2EFD843000E9C29A /* PostListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListView.swift; sourceTree = "<group>"; };
+		93C9E7BD2EFD84D900E9C29A /* SinglePostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePostView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9316D4B92EFEA19C0003D9ED /* Frameworks */ = {
@@ -32,7 +59,7 @@
 		9316D4B32EFEA19C0003D9ED = {
 			isa = PBXGroup;
 			children = (
-				9316D4BE2EFEA19C0003D9ED /* ChatApp */,
+				9316D4D32EFEA5F80003D9ED /* ChatApp */,
 				9316D4BD2EFEA19C0003D9ED /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +70,85 @@
 				9316D4BC2EFEA19C0003D9ED /* ChatApp.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		9316D4D32EFEA5F80003D9ED /* ChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				93C9E7AC2EFD7EC200E9C29A /* View */,
+				9316D4E62EFEA6900003D9ED /* CoreData */,
+				9316D4E32EFEA6900003D9ED /* ViewModel */,
+				9316D4E02EFEA6900003D9ED /* API */,
+				9316D4D92EFEA6200003D9ED /* Model */,
+				9316D4CF2EFEA5F80003D9ED /* Assets.xcassets */,
+				9316D4D02EFEA5F80003D9ED /* ChatApp.xcdatamodeld */,
+				9316D4D12EFEA5F80003D9ED /* ChatAppApp.swift */,
+			);
+			path = ChatApp;
+			sourceTree = "<group>";
+		};
+		9316D4D92EFEA6200003D9ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				93C9E7B82EFD81EC00E9C29A /* EnumModel */,
+				9316D4DA2EFEA64E0003D9ED /* User.swift */,
+				9316D4DC2EFEA6730003D9ED /* Post.swift */,
+				9316D4DE2EFEA6900003D9ED /* Comment.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9316D4E02EFEA6900003D9ED /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9316D4E12EFEA6900003D9ED /* APIEndpoint.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9316D4E32EFEA6900003D9ED /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9316D4E42EFEA6900003D9ED /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9316D4E62EFEA6900003D9ED /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				93C9E7AA2EFD70D900E9C29A /* CoreDataSettings.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		93C9E7AC2EFD7EC200E9C29A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93C9E7AD2EFD7EC600E9C29A /* Component */,
+				93C9E7BB2EFD843000E9C29A /* PostListView.swift */,
+				93C9E7BD2EFD84D900E9C29A /* SinglePostView.swift */,
+				930907232EFDAAB300FD7FB5 /* UserListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		93C9E7AD2EFD7EC600E9C29A /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				93C9E7B02EFD7F3100E9C29A /* HorizontalDividerComponent.swift */,
+				93C9E7B42EFD7FA500E9C29A /* DescriptionCardComponent.swift */,
+				93C9E7B92EFD825700E9C29A /* TopBarNavigationComponent.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		93C9E7B82EFD81EC00E9C29A /* EnumModel */ = {
+			isa = PBXGroup;
+			children = (
+				93C9E7B62EFD81DF00E9C29A /* ColorEnum.swift */,
+			);
+			path = EnumModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +165,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				9316D4BE2EFEA19C0003D9ED /* ChatApp */,
 			);
 			name = ChatApp;
 			packageProductDependencies = (
@@ -109,6 +212,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9316D4D82EFEA5F80003D9ED /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +223,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93C9E7BC2EFD843000E9C29A /* PostListView.swift in Sources */,
+				930907242EFDAAB300FD7FB5 /* UserListView.swift in Sources */,
+				9316D4E52EFEA6900003D9ED /* ContentViewModel.swift in Sources */,
+				9316D4E22EFEA6900003D9ED /* APIEndpoint.swift in Sources */,
+				93C9E7BE2EFD84D900E9C29A /* SinglePostView.swift in Sources */,
+				9316D4DB2EFEA64E0003D9ED /* User.swift in Sources */,
+				93C9E7BA2EFD825700E9C29A /* TopBarNavigationComponent.swift in Sources */,
+				9316D4DF2EFEA6900003D9ED /* Comment.swift in Sources */,
+				93C9E7B12EFD7F3100E9C29A /* HorizontalDividerComponent.swift in Sources */,
+				9316D4D52EFEA5F80003D9ED /* ChatApp.xcdatamodeld in Sources */,
+				93C9E7B52EFD7FA500E9C29A /* DescriptionCardComponent.swift in Sources */,
+				9316D4D62EFEA5F80003D9ED /* ChatAppApp.swift in Sources */,
+				93C9E7B72EFD81DF00E9C29A /* ColorEnum.swift in Sources */,
+				9316D4DD2EFEA6730003D9ED /* Post.swift in Sources */,
+				93C9E7AB2EFD70D900E9C29A /* CoreDataSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +451,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9316D4D02EFEA5F80003D9ED /* ChatApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9316D4D42EFEA5F80003D9ED /* ChatApp.xcdatamodel */,
+			);
+			currentVersion = 9316D4D42EFEA5F80003D9ED /* ChatApp.xcdatamodel */;
+			path = ChatApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9316D4B42EFEA19C0003D9ED /* Project object */;
 }
